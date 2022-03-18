@@ -17,6 +17,7 @@ h3 {
     width: 50%;
     height: 250px;
     background-repeat: no-repeat;
+    background-image: url("./bigdesk.jpg");
     margin: 10px;
     text-align: center;
 }
@@ -45,14 +46,6 @@ p {
 .flex-body {
     display: flex;
     flex-wrap: wrap;
-}
-
-#second-h3 {
-    width: 25%;
-    height: 250px;
-    background-repeat: no-repeat;
-    margin: 10px;
-    text-align: center;
 }
 
 #bottom-ul {
@@ -96,9 +89,5 @@ p {
         width: 100%;
         text-align: center;
         padding: 0px;
-    }
-    #second-h3 {
-        width: 100%;
-        text-align: center;
     }
 }
