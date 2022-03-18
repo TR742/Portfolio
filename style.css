@@ -31,7 +31,7 @@ p {
     display: flex;
     border-bottom: 10px ridge grey;
 }
-
+/* Navigation bar */
 #top-ul {
     width: 50%;
     padding: 20px 20px;
@@ -48,6 +48,7 @@ p {
     flex-wrap: wrap;
 }
 
+/* Contact information */
 #bottom-ul {
     width: 50%;
     padding: 75px 0px;
