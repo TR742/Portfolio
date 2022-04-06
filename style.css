@@ -21,12 +21,13 @@ a {
 }
 
 .prodivs img {
-    width: 300px;
-    height: 275px;
+    padding: 10px;
+    width: 250px;
+    height: 225px;
 }
 
 #header {
-    border-bottom: 15px ridge purple;
+    border-bottom: 15px ridge green;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -44,15 +45,14 @@ a {
 
 #welcome {
     text-align: left;
-    margin: 50px 250px 100px 250px;
-    border-top: 5px ridge purple;
-    border-bottom: 5px ridge purple;
+    margin: 50px 250px 50px 250px;
+    border-top: 5px ridge green;
+    border-bottom: 5px ridge green;
 }
 
 #aboutme {
     display: flex;
     width: 100%;
-    border-top: 5px ridge purple;
     padding-bottom: 20px;
 }
 
@@ -76,8 +76,8 @@ a {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
-    border-top: 5px ridge purple;
-    border-bottom: 5px ridge purple;
+    border-top: 5px ridge green;
+    border-bottom: 5px ridge green;
 }
 
 #contact {
