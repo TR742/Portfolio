@@ -1,109 +1,59 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornsilk;
 }
 
-h1 {
-    padding: 20px 30px;
+img {
+    margin: 0px 50px;
+    width: 150px;
+    height: 175px;
+    display: inline;
+    position: relative;
 }
 
-h2 {
-    width: 40%;
+a {
+    padding-right: 25px;
+}
+
+#header {
+    border-bottom: 15px ridge purple;
+    padding-bottom: 20px;
     text-align: center;
-    padding: 75px 0px;
 }
 
-h3 {
-    width: 50%;
+#header h1 {
+    margin: 0px 50px;
+    font-size: 75px;
+    display: inline;
+}
+
+#navbar {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#welcome {
+    text-align: left;
+    margin: 50px 250px 100px 250px;
+}
+
+#aboutme {
+    display: flex;
+    width: 100%;
+}
+
+#aboutme h1 {
+    padding: 10px 75px;
+}
+
+#aboutme p {
+    padding: 10px 75px;
+    margin-right: 0px;
+}
+
+#aboutme img {
+    width: 225px;
     height: 250px;
-    background-repeat: no-repeat;
-    background-image: url("./bigdesk.jpg");
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-}
-
-p {
-    width: 50%;
-    padding: 20px; 
-}
-
-.header {
-    display: flex;
-    border-bottom: 10px ridge grey;
-}
-/* Navigation bar */
-#top-ul {
-    width: 50%;
-    padding-top: 100px;
-    text-align: right;
-}
-
-#top-ul li {
-    display: inline;
-    padding: 15px;
-    font-size: large;
-}
-
-.flex-body {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* Contact information */
-#bottom-ul {
-    width: 50%;
-    padding: 75px 0px;
-    text-align: center;
-}
-
-#bottom-ul li {
-    display: inline;
-    padding: 15px;
-}
-
-#self {
-    height: 125px;
-    width: 100px;
-    padding: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        border: 0px;
-        text-align: center;
-    }
-    h1 {
-        width: 100%;
-    }
-    #top-ul {
-        width: 100%;
-        text-align: center;
-    }
-    .flex-body {
-        flex-direction: column;
-    }
-    h2 {
-        width: 100%;
-        border-top: 10px ridge grey;
-        border-bottom: 10px ridge grey;
-    }
-    h3 {
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-    }
-    p {
-        width: 100%;
-        padding: 0px;
-    }
-    #bottom-ul {
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-    }
-    #self {
-        width: 100%;
-        height: 500px;
-    }
+    padding-right: 25px;
+    margin-top: 25px;
 }
