@@ -73,3 +73,12 @@ a {
     flex-direction: row;
     padding-top: 50px;
 }
+
+#contact {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact h1 {
+    padding-bottom: 20px;
+}
