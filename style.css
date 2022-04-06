@@ -39,17 +39,21 @@ a {
 
 #navbar {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 #welcome {
     text-align: left;
     margin: 50px 250px 100px 250px;
+    border-top: 5px ridge purple;
+    border-bottom: 5px ridge purple;
 }
 
 #aboutme {
     display: flex;
     width: 100%;
+    border-top: 5px ridge purple;
+    padding-bottom: 20px;
 }
 
 #aboutme h1 {
@@ -71,12 +75,15 @@ a {
 #projects {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    padding-top: 20px;
+    border-top: 5px ridge purple;
+    border-bottom: 5px ridge purple;
 }
 
 #contact {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 #contact h1 {
