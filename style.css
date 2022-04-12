@@ -3,6 +3,7 @@ body {
     background-color: cornsilk;
 }
 
+/* Header self image */
 img {
     margin: 0px 50px;
     width: 150px;
@@ -11,10 +12,12 @@ img {
     position: relative;
 }
 
+/* Nav bar links */
 a {
     padding-right: 25px;
 }
 
+/* Projects div w/images */
 .prodivs {
     width: 30%;
     padding: 25px 50px;
@@ -26,6 +29,7 @@ a {
     height: 225px;
 }
 
+/* Header */
 #header {
     border-bottom: 15px ridge green;
     padding-bottom: 20px;
@@ -34,15 +38,17 @@ a {
 
 #header h1 {
     margin: 0px 50px;
-    font-size: 75px;
+    font-size: 70px;
     display: inline;
 }
 
+/* Navigation bar */
 #navbar {
     text-align: center;
     padding-top: 30px;
 }
 
+/* Welcome section */
 #welcome {
     text-align: left;
     margin: 50px 250px 50px 250px;
@@ -50,6 +56,7 @@ a {
     border-bottom: 5px ridge green;
 }
 
+/* About Me section */
 #aboutme {
     display: flex;
     width: 100%;
@@ -72,6 +79,7 @@ a {
     margin-top: 25px;
 }
 
+/* Projects section */
 #projects {
     display: flex;
     flex-direction: row;
@@ -80,6 +88,7 @@ a {
     border-bottom: 5px ridge green;
 }
 
+/* Contact information section */
 #contact {
     text-align: center;
     padding-top: 20px;
@@ -88,4 +97,45 @@ a {
 
 #contact h1 {
     padding-bottom: 20px;
+}
+
+/* Media query changes for smaller screens */
+@media screen and (max-width: 768px) {
+    .prodivs {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .prodivs img {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #header{
+        text-align: left;
+    }
+
+    #header h1 {
+        font-size: 50px;
+    }
+
+    #welcome {
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #aboutme {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #projects {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
 }
