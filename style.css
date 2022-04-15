@@ -108,9 +108,10 @@ a {
     }
 
     .prodivs img {
-        width: 100%;
+        width: 75%;
         padding: 0px;
         margin: 0px;
+        padding-top: 10px;
     }
     
     #header{
